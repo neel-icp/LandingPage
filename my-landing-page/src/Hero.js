@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import backgroundImg from './herobg.png'; // Update with the correct path
+
 import secondaryImg from './hero.png'; // Update with the correct path
 
 function Hero() {
