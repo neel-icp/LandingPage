@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./JockeyOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Kavoon';
+    src: url('./Kavoon-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url('./herobg.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center; /* Centers items */
+    align-items: center;
+    padding: 80px 20px;
+    color: rgb(0, 0, 0);
+    text-align: right; /* Aligns the text to the right */
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    z-index: 1;
+    flex-direction: row-reverse; /* Reverses the order of flex items */
+}
+
+.hero-content {
+    margin-left: 2%;
+    
+        text-align: center; /* Center aligns the text within the hero content */
+  
+}
+
+.hero-secondary-image {
+    width: 35%; /* This sets the actual width of the image */
+    max-width: 650px; /* This caps the image size to not exceed 600px */
+    height: auto; /* This ensures the image height scales in proportion to the width */
+    border-radius: 2vh;
+    margin-left: 1%; /* Adjust if needed */
+}
+
+.hero-content h2 {
+    margin-bottom: 0.5rem;
+    margin-left: 20vh;/* Reduces space below the h2 element */
+}
+
+.hero-content p {
+    margin-top: -3.5rem;
+    margin-left: 22vh; /* Reduces space above the p element */
+}
+
+
+  /* Adjustments for the background image size and positioning */
+  .hero::after {
+    content: "";
+    background: rgba(0, 0, 0, 0); /* Dark overlay for better text readability */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .hero h2 {
+    font-size: 3.5rem; /* Adjust the size as needed */
+    font-weight: 700; /* 700 is for bold text */
+    margin-bottom: 20px; /* Adds space between the heading and paragraph */
+    line-height: 1.2; /* Adjusts the line height for better readability */
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    
+  }
+  .hero p {
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: 400; /* Normal font weight */
+  margin-bottom: 20px; /* Adds space between the paragraph and the image */
+  line-height: 1.5; /* Adjusts the line height for better readability */
+  font-family: 'Kavoon', cursive;
+  color: rgb(255, 255, 255);
+
+}  
+  .mia-text {
+    font-size: 150px; /* Or specify a specific size, e.g., 2em, 24px, etc. */
+}
+.hero-button {
+    padding: 15px 20px; /* Add padding inside the button */
+    background-color: #00c614; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Removes the border */
+    border-radius: 20px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    text-decoration: none; /* Removes underline from text */
+    display: inline-block; /* Allows you to set padding and margins */
+    margin-top: 20px; /* Adds space above the button */
+    font-size: 1rem; /* Sets the size of the text inside the button */
+    transition: background-color 0.3s; 
+    font-weight: bold;
+    margin-left: 22vh;/* Smooth background color transition on hover */
+  }
+  
+  .hero-button:hover {
+    background-color: #00820d; /* Darker background color on hover */
+  }
+  /* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center aligns the text */
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .hero-content, .hero-secondary-image {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Override max-width for image */
+    margin-left: 0; /* Reset margin left */
+  }
+
+  .hero-content h2 {
+    margin-top: 12vh;
+    font-size: 2.5rem; /* Smaller font size for heading */
+    margin-bottom: -1rem; /* Adjust space below the heading */
+    margin-left: 0; /* Reset margin left */
+  }
+
+  .hero-content p {
+    font-size: 1.5rem; /* Smaller font size for paragraph */
+    margin-top: 0; /* Reset margin top */
+    margin-left: 0; /* Reset margin left */
+  }
+
+  .hero-button {
+    font-size: 1rem; /* Adjust button font size */
+    margin-top: 1rem; /* Space above the button */
+    margin-left: 0; /* Reset margin left */
+  }
+
+  .mia-text {
+    font-size: 100px; /* Smaller font size for special text */
+  }
+}

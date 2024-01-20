@@ -1,0 +1,27 @@
+/* Socials.css */
+
+#Socials h2 {
+    font-size: 48px; /* Adjust the font size as needed */
+    color: #ffffff; /* Change to your preferred color */
+    /* Other styling for your heading */
+  }
+  
+  .social-links a.twitter-icon img {
+    filter: invert(100%); /* Inverts the color of the image */
+  }
+  
+  .social-links a {
+    margin: 0 10px; /* Adds space between the icons */
+    display: inline-block; /* Aligns icons in a line */
+  }
+  
+  .social-links img {
+    height: 40px; /* Adjust the size of the icons */
+    width: 40px; /* Adjust the size of the icons */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+  }
+  

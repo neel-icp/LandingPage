@@ -1,0 +1,23 @@
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between; /* This spreads out the navbar content */
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed; /* Added to make navbar fixed */
+    top: 0; /* Align navbar to the top */
+    left: 0; /* Align navbar to the left */
+    right: 0; /* Ensure navbar extends to the right */
+    z-index: 1000; /* Ensure navbar is above other content */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 150px; /* Adjust the size as needed */
+    margin-right: 20px; /* Adds space between the logo image and text */
+  }
+  

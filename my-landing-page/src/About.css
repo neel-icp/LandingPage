@@ -1,0 +1,44 @@
+/* About.css */
+
+#about {
+    text-align: center; /* Center aligns the text */
+    padding: 20px; /* Adds padding around the section */
+    color: white;
+    
+  }
+  
+  #about h2 {
+    font-size: 2rem; /* Sets an initial font size for the heading */
+    margin-bottom: 10px; /* Adds space below the heading */
+    font-family: 'Pacifico', cursive;
+    font-size: 15vh;
+  }
+  
+  #about p {
+    font-size: 1rem; /* Sets an initial font size for the paragraph */
+    margin-bottom: 10px; /* Adds space below the paragraph */
+    font-family: 'Kavoon', cursive;
+    font-size: 3vh;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    #about h2 {
+      font-size: 1.5rem; /* Slightly smaller font size on smaller screens */
+    }
+  
+    #about p {
+      font-size: 0.9rem; /* Slightly smaller font size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #about h2 {
+      font-size: 1.2rem; /* Even smaller font size on very small screens */
+    }
+  
+    #about p {
+      font-size: 0.8rem; /* Even smaller font size on very small screens */
+    }
+  }
+  

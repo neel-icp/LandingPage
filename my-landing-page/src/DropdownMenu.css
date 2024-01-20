@@ -1,0 +1,54 @@
+.dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background-color: #01010195;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+    display: flex; /* This will help center the SVG icon inside the button */
+  align-items: center;
+  justify-content: center;
+  padding: 8px; /* Adjust padding as needed */
+  border: none; /* Removes border */
+  background: none; /* Removes default background */
+  cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0; /* Align the dropdown content to the right */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 1vh;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 1vh;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #44bbff;
+  }
+  .dropbtn img { /* Targeting the img tag directly */
+    height: 40px; /* Adjust the height as needed */
+    width: 40px; /* Adjust the width as needed */
+  }
+  

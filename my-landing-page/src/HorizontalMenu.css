@@ -1,0 +1,64 @@
+.horizontalMenu {
+    display: flex;
+    justify-content: space-between; /* Adjusts items to space between */
+    align-items: center; /* Aligns items vertically */
+    background-color: #f9f9f900;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.menuItemsContainer {
+    display: flex;
+    justify-content: center; /* Center the menu items */
+}
+
+.menuItem {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menuItem:hover {
+    background-color: #e0e0e0;
+}
+
+.menuButton {
+    /* Style your button here */
+    cursor: pointer;
+    border: none;
+    background-color: #7900ba95; /* Example background color */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+   font-size: large;
+}
+/* HorizontalMenu.css */
+/* ... existing styles ... */
+
+.menuToggle {
+    display: none;
+    /* Style the menu toggle button as needed */
+}
+
+/* HorizontalMenu.css */
+/* ... existing styles ... */
+
+@media (max-width: 768px) {
+    .menuItemsContainer {
+        display: none; /* Hide menu items on small screens */
+    }
+
+    .menuToggle {
+        display: none; /* Hide menu toggle button on small screens */
+    }
+
+    .menuButton {
+        display: block; /* Ensure the 'Buy $MIA' button is always visible */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
