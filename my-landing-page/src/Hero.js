@@ -6,7 +6,7 @@ import secondaryImg from './hero.png'; // Update with the correct path
 function Hero() {
     const handleClick = () => {
       // Redirect to your desired URL
-      window.location.href = 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e&fixed=in';
+      window.location.href = '';
     };
     return (
       <div className="container">
