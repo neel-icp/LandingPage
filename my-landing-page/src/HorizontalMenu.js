@@ -9,7 +9,7 @@ function HorizontalMenu() {
     };
 
     const handleButtonClick = () => {
-        window.location.href = '';
+        window.location.href = 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e&inputAmount=0.230381&outputAmount=742451.810446&fixed=in';
     };
 
     return (
