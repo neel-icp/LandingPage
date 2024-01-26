@@ -21,6 +21,12 @@
     font-size: 3vh;
   }
   
+  .contract-address {
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+}
+
+
   /* Responsive styles */
   @media (max-width: 768px) {
     #Tokenomics h2 {
