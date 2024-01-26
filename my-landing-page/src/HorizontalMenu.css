@@ -61,4 +61,44 @@
         top: 10px;
         right: 10px;
     }
+    .NewmenuButton {
+        display: block; /* Ensure the 'Buy $MIA' button is always visible */
+        position: absolute;
+        top: 80px;
+        right: 20px;
+    }
+}
+.horizontalMenu {
+    /* ... other styles ... */
+}
+
+.menuButton {
+    /* Add space around the button */
+    margin: 0 10px;
+    /* ... other styles ... */
+}
+
+.buttonLogo {
+    /* Adjust the size of the logo as needed */
+    width: 20px;
+    height: 20px;
+    /* Add some space between the logo and the text */
+    margin-right: 5px;
+}
+
+.buttonsContainer {
+    /* Add styles to space out the buttons */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NewmenuButton {
+    /* Style your button here */
+    cursor: pointer;
+    border: none;
+    background-color: #00ba1c95; /* Example background color */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+   font-size: large;
 }
