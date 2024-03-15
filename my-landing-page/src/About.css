@@ -24,7 +24,7 @@
   /* Responsive styles */
   @media (max-width: 768px) {
     #about h2 {
-      font-size: 1.5rem; /* Slightly smaller font size on smaller screens */
+      font-size: 4.5rem; /* Slightly smaller font size on smaller screens */
     }
   
     #about p {
@@ -34,7 +34,7 @@
   
   @media (max-width: 480px) {
     #about h2 {
-      font-size: 1.2rem; /* Even smaller font size on very small screens */
+      font-size: 4.2rem; /* Even smaller font size on very small screens */
     }
   
     #about p {
