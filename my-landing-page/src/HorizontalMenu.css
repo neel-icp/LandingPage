@@ -67,6 +67,12 @@
         top: 80px;
         right: 20px;
     }
+    .GitmenuButton {
+        display: block; /* Ensure the 'Buy $MIA' button is always visible */
+        position: absolute;
+        top: 10px;
+        right:10px;
+    }
 }
 .horizontalMenu {
     /* ... other styles ... */
@@ -101,4 +107,15 @@
     padding: 15px 20px;
     border-radius: 15px;
    font-size: large;
+}
+.GitmenuButton {
+    /* Style your button here */
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff; /* Example background color */
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 15px;
+   font-size: large;
+   margin-left: 2vh;
 }

@@ -6,6 +6,7 @@ import FAQ from './FAQ'; // Import the FAQ component
 import Hero from './Hero'; // Import the Hero component
 import Tokenomics from './Tokenomics'; // Import the Tokenomics component
 import Socials from './Socials'; // Import the Socials component
+import Roadmap from './Roadmap';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About /> {/* Include the About component */}
       <Tokenomics /> {/* Include the Tokenomics component */}
       <FAQ /> {/* Include the FAQ component */}
+      <Roadmap/>
       <Socials /> {/* Include the Socials component */}
     </div>
   );

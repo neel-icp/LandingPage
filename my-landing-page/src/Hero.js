@@ -17,8 +17,8 @@ function Hero() {
         <section id="hero" className="hero">
           <div className="hero-content">
             <h2><span className="mia-text">MEET $MIA</span></h2>
-            <p><br/> MIA is the crush of the cute doge of Raj Gokal,<br/> one and only $MYRO  </p>
-            <button onClick={handleBuyMiaClick} className="hero-button">BUY $MIA on Raydium</button>
+            <p><br/> MIA is the only crush of $MYRO, <br/>the dog of Solana Co-Founder Mr.Raj Gokal. </p>
+        {/*    <button onClick={handleBuyMiaClick} className="hero-button">BUY $MIA on Raydium</button> */}
             <button onClick={handleNewButtonClick} className="hero-button">BUY $MIA on Jupiter</button> {/* New button */}
           </div>
           <img src={secondaryImg} alt="Mia" className="hero-secondary-image"/>
