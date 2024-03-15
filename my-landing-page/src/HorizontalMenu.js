@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HorizontalMenu.css';
 // Importing logos
-import buyMiaLogo from './Raydium.png'; // Replace with the actual path to your image
+// import buyMiaLogo from './Raydium.png'; // Replace with the actual path to your image
 import newButtonLogo from './Jupiter.png'; // Replace with the actual path to your image
 import GitButtonLogo from './GitBook.jpg';
 function HorizontalMenu() {
@@ -11,9 +11,9 @@ function HorizontalMenu() {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const handleBuyMiaClick = () => {
+  {/*  const handleBuyMiaClick = () => {
         window.location.href = 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e&inputAmount=0.230381&outputAmount=742451.810446&fixed=in';
-    };
+    }; */}
 
     const handleNewButtonClick = () => {
         window.location.href = 'https://jup.ag/swap/USDC-MIA_Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e';

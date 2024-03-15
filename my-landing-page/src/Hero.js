@@ -4,9 +4,9 @@ import './Hero.css';
 import secondaryImg from './hero.png'; // Update with the correct path
 
 function Hero() {
-    const handleBuyMiaClick = () => {
+   /* const handleBuyMiaClick = () => {
       window.location.href = 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e&inputAmount=0.230381&outputAmount=742451.810446&fixed=in';
-    };
+    }; */
 
     const handleNewButtonClick = () => {
       window.location.href = 'https://jup.ag/swap/USDC-MIA_Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e'; // Replace with your second URL
