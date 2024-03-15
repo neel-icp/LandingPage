@@ -11,9 +11,7 @@ function HorizontalMenu() {
         setIsMenuOpen(!isMenuOpen);
     };
 
-  {/*  const handleBuyMiaClick = () => {
-        window.location.href = 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e&inputAmount=0.230381&outputAmount=742451.810446&fixed=in';
-    }; */}
+ 
 
     const handleNewButtonClick = () => {
         window.location.href = 'https://jup.ag/swap/USDC-MIA_Abam1vB9kSXEGA9N7pPifuXwe2xVuqetWBDQDrrvQ43e';
@@ -41,7 +39,7 @@ function HorizontalMenu() {
                 Buy $MIA
             </button>
             <button className="GitmenuButton" onClick={handleGitButtonClick}>
-                <img src={GitButtonLogo} alt="New Button Logo" className="buttonLogo" />
+                <img src={GitButtonLogo} alt="Git Button Logo" className="GitbuttonLogo" />
                 LitePaper/Roadmap
             </button>
         </div>
