@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HorizontalMenu.css';
 // Importing logos
-// import buyMiaLogo from './Raydium.png'; // Replace with the actual path to your image
+//import buyMiaLogo from './Raydium.png'; // Replace with the actual path to your image
 import newButtonLogo from './Jupiter.png'; // Replace with the actual path to your image
 import GitButtonLogo from './GitBook.jpg';
 function HorizontalMenu() {
@@ -39,7 +39,7 @@ function HorizontalMenu() {
                 Buy $MIA
             </button>
             <button className="GitmenuButton" onClick={handleGitButtonClick}>
-                <img src={GitButtonLogo} alt="Git Button Logo" className="GitbuttonLogo" />
+                <img src={GitButtonLogo} alt="New Button Logo" className="buttonLogo" />
                 LitePaper/Roadmap
             </button>
         </div>
