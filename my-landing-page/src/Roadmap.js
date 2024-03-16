@@ -10,28 +10,28 @@ function Roadmap() {
   const phases = [
     {
       id: 1,
-      title: "Phase 1 (Q2 2023)",
+      title: "Phase 1 (Q2 2024)",
       heading:"MiaSniffer bot 👅",
       description: " - A sophisticated bot designed to sniff out the best opportunities.",
       active: true, // This can be used to toggle visibility or styles
     },
     {
       id: 2,
-      title: "Phase 2 (Q3 2023)",
+      title: "Phase 2 (Q3 2024)",
       heading:"CopyMia bot Upgrade",
       description: " - Enhancing the MiaSniffer bot for superior performance.",
       active: false,
     },
     {
       id: 3,
-      title: "Phase 3 - (Q4 2023)",
+      title: "Phase 3 - (Q4 2024)",
       heading:"MammaMia NFT",
       description: " - Exclusive NFT collection celebrating the Mia ecosystem.",
       active: false,
     },
     {
       id: 4,
-      title: "Phase 4 - (Q4 2023)",
+      title: "Phase 4 - (Q4 2024)",
       heading:"MIArena Game Studio",
       description: " - Launching a game studio to develop engaging games within the Mia ecosystem.",
       active: false,
